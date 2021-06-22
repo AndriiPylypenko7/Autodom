@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/autodom/static/css/main.444feec5.chunk.css",
+    "main.js": "/autodom/static/js/main.5e29526b.chunk.js",
+    "main.js.map": "/autodom/static/js/main.5e29526b.chunk.js.map",
+    "runtime-main.js": "/autodom/static/js/runtime-main.3ef288b7.js",
+    "runtime-main.js.map": "/autodom/static/js/runtime-main.3ef288b7.js.map",
+    "static/js/2.a8836088.chunk.js": "/autodom/static/js/2.a8836088.chunk.js",
+    "static/js/2.a8836088.chunk.js.map": "/autodom/static/js/2.a8836088.chunk.js.map",
+    "static/js/3.a5d68bde.chunk.js": "/autodom/static/js/3.a5d68bde.chunk.js",
+    "static/js/3.a5d68bde.chunk.js.map": "/autodom/static/js/3.a5d68bde.chunk.js.map",
+    "index.html": "/autodom/index.html",
+    "static/css/main.444feec5.chunk.css.map": "/autodom/static/css/main.444feec5.chunk.css.map",
+    "static/js/2.a8836088.chunk.js.LICENSE.txt": "/autodom/static/js/2.a8836088.chunk.js.LICENSE.txt",
+    "static/media/accent.a2d66035.png": "/autodom/static/media/accent.a2d66035.png",
+    "static/media/index.css": "/autodom/static/media/background.4751228e.jpg",
+    "static/media/camry.589c31ba.png": "/autodom/static/media/camry.589c31ba.png",
+    "static/media/carrent.f09d1965.png": "/autodom/static/media/carrent.f09d1965.png",
+    "static/media/cx5.6cc5218f.png": "/autodom/static/media/cx5.6cc5218f.png",
+    "static/media/Form.module.css": "/autodom/static/media/done.4238279d.png",
+    "static/media/elantra.8768f3f9.png": "/autodom/static/media/elantra.8768f3f9.png",
+    "static/media/Requirements.module.css": "/autodom/static/media/keys.820fdb67.png",
+    "static/media/logo.dbe7d838.png": "/autodom/static/media/logo.dbe7d838.png",
+    "static/media/longrent.2b11fcc5.png": "/autodom/static/media/longrent.2b11fcc5.png",
+    "static/media/mazda6.8b2ed5f8.png": "/autodom/static/media/mazda6.8b2ed5f8.png",
+    "static/media/siena.746e0303.png": "/autodom/static/media/siena.746e0303.png",
+    "static/media/sonata.4cd6018a.png": "/autodom/static/media/sonata.4cd6018a.png",
+    "static/media/transfer.7b880ae7.png": "/autodom/static/media/transfer.7b880ae7.png",
+    "static/media/weeding.5d2a754c.png": "/autodom/static/media/weeding.5d2a754c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ef288b7.js",
+    "static/js/2.a8836088.chunk.js",
+    "static/css/main.444feec5.chunk.css",
+    "static/js/main.5e29526b.chunk.js"
+  ]
+}
