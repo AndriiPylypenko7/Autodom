@@ -1,0 +1,78 @@
+.item__wrapper {
+   border-bottom: 5px solid orange;
+   display: flex;
+   align-items: center;
+   padding: 30px 20px;
+   background: rgba(0, 0, 0, 0.2);
+   .image__wrapper {
+      max-width: 500px;
+      height: auto;
+      .car__image {
+         width: 100%;
+         height: auto;
+      }
+   }
+   .content__wrapper {
+      margin-left: 20px;
+   }
+   .text__wrapper {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      .content__title {
+         margin-top: 10px;
+         font-weight: 400;
+         font-size: 18px;
+      }
+      .content__text {
+         margin-left: 20px;
+         font-weight: 700;
+         font-size: 20px;
+         text-shadow: 0 0 7px #fff;
+      }
+   }
+   .car__name {
+      font-family: "Yeseva One", cursive;
+      letter-spacing: 5px;
+      font-size: 30px;
+      font-weight: 700;
+   }
+   .form__link {
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: 700;
+      border: 2px solid orange;
+      border-radius: 35px 0 35px 0;
+      text-align: center;
+      padding: 20px;
+      align-self: center;
+      background: rgba(255, 255, 255, 0.5);
+      color: #000;
+      margin: 0 auto;
+      box-shadow: 0 0 30px #000;
+
+      &:hover {
+         border: 2px solid rgba(0, 0, 0, 0.5);
+         border-radius: 0 35px 0 35px;
+         background: orange;
+         text-shadow: 0 0 15px #fff;
+         box-shadow: 0 0 30px #fff;
+      }
+      &:focus {
+         border: 2px solid rgba(0, 0, 0, 0.5);
+         border-radius: 0 35px 0 35px;
+         background: orange;
+         text-shadow: 0 0 15px #fff;
+         box-shadow: 0 0 30px #fff;
+      }
+   }
+}
+@media screen and (max-width: 1023px) {
+   .item__wrapper {
+      flex-direction: column;
+      justify-content: center;
+      .form__link {
+         margin: 30px auto;
+      }
+   }
+}

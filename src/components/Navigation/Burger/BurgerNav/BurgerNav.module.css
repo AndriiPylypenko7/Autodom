@@ -1,0 +1,73 @@
+.burger__container {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 0 30px;
+  padding-left: 15px;
+  width: 220px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.burger__container .burger__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+  text-decoration: none;
+}
+
+.burger__container .burger__list .burger__item {
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+}
+
+.burger__container .burger__list .burger__item .burger__link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.burger__container .burger__list .burger__item .burger__link:hover {
+  border-bottom: 2px solid orange;
+}
+
+.burger__container .burger__list .burger__item .burger__link:focus {
+  border-bottom: 2px solid orange;
+}
+
+.burger__container .sidebar_item__wrapper {
+  margin: 10px;
+}
+
+.burger__container .sidebar_item__wrapper:hover .messengers__item {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.burger__container .sidebar_item__wrapper:focus .messengers__item {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.nav .link__active {
+  text-shadow: 0 0 10px whitesmoke;
+  border-bottom: 2px solid orange;
+}

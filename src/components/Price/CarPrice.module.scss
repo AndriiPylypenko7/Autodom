@@ -1,0 +1,72 @@
+.carPrice__wrapper {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px 20px;
+   background: rgba(0, 0, 0, 0.2);
+   .carImage__wrapper {
+      width: 200px;
+      .carImage {
+         width: 100%;
+         height: auto;
+      }
+   }
+   .carName__link {
+      text-align: center;
+      font-size: 22px;
+      color: #000;
+      font-weight: 700;
+      &:hover {
+         text-shadow: 0 0 10px orange;
+      }
+   }
+   .priceList__wrapper {
+      display: flex;
+   }
+   .price__wrapper {
+      width: 120px;
+      background: rgba(255, 255, 255, 0.5);
+      border: 1px solid rgba(0, 0, 0, 0.3);
+
+      .price__title {
+         background: orange;
+         padding: 10px;
+         border: 1px solid rgba(0, 0, 0, 0.3);
+      }
+      .price__text {
+         padding: 10px;
+         border: 1px solid rgba(0, 0, 0, 0.3);
+      }
+   }
+}
+@media screen and (max-width: 1023px) {
+   .carPrice__wrapper {
+      flex-direction: column;
+      justify-content: space-between;
+
+      .carImage__wrapper {
+         width: 300px;
+      }
+      .priceList__wrapper {
+         display: flex;
+         width: 100%;
+      }
+      .price__wrapper {
+         width: 120px;
+         background: rgba(255, 255, 255, 0.5);
+         border: 1px solid rgba(0, 0, 0, 0.3);
+
+         .price__title {
+            background: orange;
+            font-size: 12px;
+            padding: 5px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+         }
+         .price__text {
+            padding: 5px;
+            font-size: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+         }
+      }
+   }
+}

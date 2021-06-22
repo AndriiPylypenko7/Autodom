@@ -1,0 +1,14 @@
+.wrap {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   right: 0;
+   z-index: 2;
+}
+@media screen and (min-width: 1023px) {
+   .wrap {
+      display: none;
+   }
+}

@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "social";
+  src: url("fonts/social.eot?kn7boz");
+  src: url("fonts/social.eot?kn7boz#iefix") format("embedded-opentype"),
+    url("fonts/social.ttf?kn7boz") format("truetype"),
+    url("fonts/social.woff?kn7boz") format("woff"),
+    url("fonts/social.svg?kn7boz#social") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon_"],
+[class*=" _icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "social" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon_facebook:before {
+  content: "\e903";
+  color: #1877f2;
+}
+._icon_instagram:before {
+  content: "\e904";
+  color: #e4405f;
+}
+._icon_telegram:before {
+  content: "\e900";
+  color: #2ca5e0;
+}
+._icon_twitter:before {
+  content: "\e905";
+  color: #1da1f2;
+}
+._icon_viber:before {
+  content: "\e901";
+  color: #665cac;
+}
+._icon_whatsapp:before {
+  content: "\e902";
+  color: #25d366;
+}

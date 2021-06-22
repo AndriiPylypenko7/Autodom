@@ -1,0 +1,93 @@
+.carPrice__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 20px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.carPrice__wrapper .carImage__wrapper {
+  width: 200px;
+}
+
+.carPrice__wrapper .carImage__wrapper .carImage {
+  width: 100%;
+  height: auto;
+}
+
+.carPrice__wrapper .carName__link {
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.carPrice__wrapper .carName__link:hover {
+  text-shadow: 0 0 10px orange;
+}
+
+.carPrice__wrapper .priceList__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.carPrice__wrapper .price__wrapper {
+  width: 120px;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.carPrice__wrapper .price__wrapper .price__title {
+  background: orange;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.carPrice__wrapper .price__wrapper .price__text {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1023px) {
+  .carPrice__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .carPrice__wrapper .carImage__wrapper {
+    width: 300px;
+  }
+  .carPrice__wrapper .priceList__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .carPrice__wrapper .price__wrapper {
+    width: 120px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .carPrice__wrapper .price__wrapper .price__title {
+    background: orange;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  .carPrice__wrapper .price__wrapper .price__text {
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}

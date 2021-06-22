@@ -1,0 +1,64 @@
+.contacts__wrapper {
+   display: flex;
+   align-items: center;
+   height: 90.7%;
+
+   .contacts__map {
+      border: none;
+      flex-grow: 1;
+      align-self: stretch;
+      border-radius: 0 0 0 30px;
+   }
+   .contacts__content {
+      flex-grow: 1;
+      padding: 0 5%;
+      font-size: 20px;
+      font-weight: 700;
+      .content__title {
+         margin-top: 25px;
+         font-style: italic;
+         font-weight: 500;
+      }
+      .content__text {
+         margin-top: 5px;
+      }
+      .messengers__item {
+         margin: 0 15px;
+      }
+   }
+}
+@media screen and (max-width: 1023px) {
+   .contacts__wrapper {
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      .contacts__map {
+         border: none;
+         flex-grow: 1;
+         width: 100%;
+         height: 300px;
+         align-self: flex-end;
+         align-self: center;
+         border-radius: 0;
+      }
+      .contacts__content {
+         flex-grow: 1;
+         padding: 10px 5%;
+         font-size: 16px;
+         font-weight: 700;
+         .content__title {
+            margin-top: 25px;
+            font-style: italic;
+            font-weight: 500;
+         }
+         .content__text {
+            margin-top: 5px;
+         }
+         .messengers__item {
+            margin: 0 15px;
+         }
+      }
+   }
+}
